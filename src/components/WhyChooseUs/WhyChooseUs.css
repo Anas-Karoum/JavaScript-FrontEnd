@@ -1,0 +1,77 @@
+.why-choose-us {
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    height: 700px;
+    position: relative;
+    z-index: 0;
+  }
+  .why-choose-us .background-color {
+    width: 840px;
+    height: 320px;
+    background-color: #F0EFE9;
+    position: absolute;
+    right: 0;
+    bottom: 110px;
+    z-index: -1;
+    max-width: 100%;
+  }
+  @media (max-width: 1400px) {
+    .why-choose-us .background-color {
+      display: none;
+    }
+  }
+  @media (max-width: 1920px) {
+    .why-choose-us {
+      height: 100%;
+      padding-bottom: 100px;
+      padding-top: 100px;
+    }
+  }
+  .why-choose-us .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 992px) {
+    .why-choose-us .container {
+      grid-template-columns: 1fr;
+    }
+  }
+  .why-choose-us .container img {
+    width: 100%;
+  }
+  .why-choose-us .container .content p {
+    color: #F94D1C;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+  .why-choose-us .container .content h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 40px;
+  }
+  .why-choose-us .container .parent .child {
+    padding-bottom: 50px;
+    display: inline-flex;
+  }
+  .why-choose-us .container .parent .child h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-left: 22px;
+  }
+  .why-choose-us .container .parent .child p {
+    color: #191919;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 22px;
+  }
+  @media (max-width: 428px) {
+    .why-choose-us .container .parent .child .circle {
+      border: none;
+    }
+  }
+  

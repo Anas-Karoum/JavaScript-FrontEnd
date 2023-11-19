@@ -1,0 +1,95 @@
+.footer {
+    background-color: #0E1021;
+    height: 512px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .footer .background-lines {
+    position: absolute;
+    right: 0;
+    bottom: 85px;
+    max-width: 100%;
+  }
+  @media (max-width: 992px) {
+    .footer {
+      height: 100%;
+    }
+  }
+  .footer .container {
+    display: inline;
+  }
+  .footer .container .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 100px;
+    padding-top: 70px;
+    justify-content: center;
+  }
+  @media (max-width: 992px) {
+    .footer .container .parent {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (max-width: 576px) {
+    .footer .container .parent {
+      grid-template-columns: 1fr;
+    }
+  }
+  .footer .container .parent .child {
+    padding-bottom: 40px;
+  }
+  .footer .container .parent .child img {
+    padding-bottom: 30px;
+  }
+  .footer .container .parent .child h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+  }
+  .footer .container .parent .child a {
+    color: #707070;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .footer .container .parent .child a:hover {
+    color: #FFFFFF;
+  }
+  .footer .container .parent .child p {
+    color: #707070;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .footer .container .social-media {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #707070;
+    padding-top: 20px;
+  }
+  .footer .container .social-media p {
+    color: #707070;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .footer .container .social-media a {
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    margin-left: 25px;
+  }
+  .footer .container .social-media a:hover {
+    color: #707070;
+  }
+  @media (max-width: 992px) {
+    .footer .container .social-media .links {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }  

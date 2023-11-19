@@ -1,0 +1,38 @@
+.contact {
+    height: 300px;
+    background-color: #F0EFE9;
+    display: flex;
+    align-items: center;
+  }
+  .contact .container {
+    display: block;
+  }
+  .contact .container .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .container .links a {
+    text-decoration: none;
+    color: #191919;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .contact .container .links a:hover {
+    background-color: transparent;
+    border: 1px solid #191919;
+    color: #191919;
+  }
+  .contact .container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .container .content h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+  }  

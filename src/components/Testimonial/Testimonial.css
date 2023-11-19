@@ -1,0 +1,87 @@
+.testimonial {
+    background-color: #F9D783;
+    display: flex;
+    align-items: center;
+    height: 1120px;
+  }
+  @media (min-width: 300px) {
+    .testimonial {
+      height: 100%;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+  .testimonial .container {
+    display: flex;
+    align-items: center;
+  }
+  .testimonial .container .box {
+    width: 1520px;
+    height: 887px;
+    background-color: #FFFFFF;
+    padding: 100px 140px;
+    max-width: 100%;
+  }
+  @media (min-width: 300px) {
+    .testimonial .container .box {
+      height: 100%;
+    }
+  }
+  .testimonial .container .box .content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial .container .box .content p {
+    color: #F94D1C;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .testimonial .container .box .content h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 80px;
+  }
+  .testimonial .container .box .parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    justify-content: center;
+  }
+  @media (max-width: 992px) {
+    .testimonial .container .box .parent {
+      grid-template-columns: 1fr;
+    }
+  }
+  .testimonial .container .box .parent .child img {
+    padding-bottom: 20px;
+  }
+  .testimonial .container .box .parent .child span {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 15px;
+  }
+  .testimonial .container .box .parent .child span p {
+    color: #F94D1C;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+  .testimonial .container .box .parent .child p {
+    color: #191919;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    padding-bottom: 30px;
+  }
+  .testimonial .container .box .parent .child h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #191919;
+  }  

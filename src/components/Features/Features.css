@@ -1,0 +1,83 @@
+.features {
+    background-color: #FFFFFF;
+    height: 600px;
+    display: flex;
+    align-items: center;
+  }
+  @media (max-width: 992px) {
+    .features {
+      height: 800px;
+    }
+  }
+  @media (max-width: 768px) {
+    .features {
+      height: 1100px;
+    }
+  }
+  @media (max-width: 484px) {
+    .features {
+      height: 1200px;
+    }
+  }
+  .features .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  @media (max-width: 992px) {
+    .features .container {
+      display: block;
+    }
+  }
+  .features .container .content {
+    padding-bottom: 140px;
+    text-align: left;
+  }
+  .features .container .content p {
+    color: #F94D1C;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+  .features .container .content h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 60px;
+  }
+  .features .container .content a {
+    padding: 12px 110px;
+  }
+  @media (max-width: 355px) {
+    .features .container .content a {
+      padding: 12px 90px;
+    }
+  }
+  .features .container .parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 768px) {
+    .features .container .parent {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  .features .container .parent .child {
+    padding: 20px;
+  }
+  .features .container .parent .child h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .features .container .parent .child p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .features .container .parent .child i {
+    font-size: 40px;
+    padding-bottom: 35px;
+  }  

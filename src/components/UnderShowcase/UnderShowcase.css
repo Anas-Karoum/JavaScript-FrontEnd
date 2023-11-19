@@ -1,0 +1,27 @@
+.under-showcase {
+    background-color: #FFFFFF;
+  }
+  @media (max-width: 440px) {
+    .under-showcase {
+      height: 100%;
+      padding-bottom: 50px;
+    }
+  }
+  .under-showcase .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .under-showcase .container .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 100px;
+    margin: 0 auto;
+  }
+  @media (max-width: 992px) {
+    .under-showcase .container .parent {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  .under-showcase .container .parent .child img {
+    width: 100%;
+  }  

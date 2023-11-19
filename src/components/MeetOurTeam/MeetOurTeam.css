@@ -1,0 +1,79 @@
+.meet-our-team {
+    background-color: #F9D783;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 1400px) {
+    .meet-our-team {
+      height: 1300px;
+    }
+  }
+  @media (max-width: 768px) {
+    .meet-our-team {
+      height: 2600px;
+    }
+  }
+  .meet-our-team .container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+  }
+  .meet-our-team .container .content {
+    padding-bottom: 100px;
+  }
+  .meet-our-team .container .content p {
+    color: #F94D1C;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+  .meet-our-team .container .content h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+  }
+  .meet-our-team .container .content span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (max-width: 370px) {
+    .meet-our-team .container .content span a {
+      padding: 5px 5px;
+    }
+  }
+  .meet-our-team .container .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  @media (max-width: 1400px) {
+    .meet-our-team .container .parent {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 768px) {
+    .meet-our-team .container .parent {
+      grid-template-columns: 1fr;
+      gap: 50px;
+    }
+  }
+  .meet-our-team .container .parent .child {
+    margin: 0 auto;
+  }
+  .meet-our-team .container .parent h3 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #191919;
+    padding-top: 35px;
+  }
+  .meet-our-team .container .parent p {
+    color: #191919;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }  

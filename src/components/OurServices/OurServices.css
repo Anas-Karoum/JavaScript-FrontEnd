@@ -1,0 +1,88 @@
+.our-services {
+    background-color: #F0EFE9;
+    height: 870px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .our-services .background-lines {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+  }
+  @media (max-width: 1400px) {
+    .our-services {
+      height: 1100px;
+    }
+  }
+  @media (max-width: 700px) {
+    .our-services {
+      height: 1900px;
+    }
+  }
+  .our-services .container {
+    display: block;
+    align-items: center;
+  }
+  .our-services .container .content p {
+    color: #F94D1C;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+  }
+  .our-services .container .content h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 35px;
+  }
+  .our-services .container .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 55px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width: 1400px) {
+    .our-services .container .parent {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (max-width: 700px) {
+    .our-services .container .parent {
+      grid-template-columns: 1fr;
+    }
+  }
+  .our-services .container .parent .child {
+    width: 308px;
+    height: 333px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .our-services .container .parent .child a {
+    float: right;
+  }
+  .our-services .container .parent .child h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .our-services .container .parent .child p {
+    color: #191919;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .our-services .container .parent .child i {
+    font-size: 40px;
+  }
+  .our-services .container .parent .child a i {
+    font-size: 15px;
+  }
+  .our-services .container .parent .child-yellow {
+    background-color: #F9D783;
+  }
+  
